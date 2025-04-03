@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Best Cars Dealership</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <h2>Best Cars Dealership</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mt-5 contact-container">
+        <div class="contact-wrapper">
+            <h1 class="contact-title">Get in Touch</h1>
+            <p class="contact-description">We'd love to hear from you! Whether you're looking for a new car, need
+                service, or have any questions, feel free to reach out.</p>
+            <div class="contact-info-container">
+                <div class="contact-info">
+                    <h3>📍 Our Location</h3>
+                    <p>123 Auto Avenue, Car City, CA 90210</p>
+
+                    <h3>📞 Phone</h3>
+                    <p>+1 (555) 123-4567</p>
+
+                    <h3>📧 Email</h3>
+                    <p>info@bestcarsdealership.com</p>
+
+                    <h3>⏰ Business Hours</h3>
+                    <p>Monday - Friday: 9 AM - 6 PM</p>
+                    <p>Saturday: 10 AM - 4 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here..."
+                            required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
