@@ -1,26 +1,13 @@
 img{
-  width: 60%;
+  width: 300px;
+  height: 180px;
   align-self: center;
 }
 
 .card{
-  border: rgb(103, 102, 105) 3px solid;
-  display: flex;  
-  flex-direction: column;
-  margin-left:5%;
-  margin-right:5%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
-.row{
-  display: flex;  
-  flex: 1;
-  flex-direction: row;
-  margin: auto;
-  margin-top: 1%;
-  justify-content: center;
-  padding:20px;
+ /* border: rgb(103, 102, 105) 3px solid; */
+  width: 300px; 
+  min-width:none
 }
 
 .container{
@@ -90,7 +77,13 @@ img{
   color: black;
   align-self: center;
 }
+.team-container{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
 
+}
 .username{
   font: 30px sans-serif;
   color:black;
