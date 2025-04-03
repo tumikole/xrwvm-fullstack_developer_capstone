@@ -1,13 +1,53 @@
 img{
-  width: 300px;
-  height: 180px;
+  width: 60%;
   align-self: center;
 }
 
 .card{
- /* border: rgb(103, 102, 105) 3px solid; */
-  width: 300px; 
-  min-width:none
+  border: rgb(103, 102, 105) 3px solid;
+  display: flex;  
+  flex-direction: column;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.team-container{
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.about-card{
+  border: 1px solid black;
+width: 300px;
+
+}
+
+.about-card img{
+width: 100%;
+height: 250px;
+}
+
+.about-card h5{
+  background-color: #614080;
+width: 100%;
+height: 50px;
+text-align:center;
+padding-top: 10px;
+  
+}
+
+.row{
+  display: flex;  
+  flex: 1;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 1%;
+  justify-content: center;
+  padding:20px;
 }
 
 .container{
@@ -77,13 +117,7 @@ img{
   color: black;
   align-self: center;
 }
-.team-container{
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  margin-top: 3rem;
 
-}
 .username{
   font: 30px sans-serif;
   color:black;
